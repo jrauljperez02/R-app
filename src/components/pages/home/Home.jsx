@@ -1,8 +1,9 @@
 import React from 'react'
 import './home.scss'
 import {AcUnit} from '@material-ui/icons'
-import NavBar from '../components/Navbar/NavBar'
-import Featured from '../components/Featured/Featured'
+import NavBar from '../../Navbar/NavBar'
+import Featured from '../../Featured/Featured'
+import List from '../../List/List'
 
 
 const Home = () => {
@@ -10,6 +11,10 @@ const Home = () => {
     <div className='home'>
         <NavBar/>
        <Featured type = 'movie'/> 
+       <List/>
+       <List/>
+       <List/>
+       <List/>
     </div>
   )
 }

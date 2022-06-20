@@ -17,7 +17,7 @@ const NavBar = () => {
     <div className = {isScrolled ? 'navbar scrolled': 'navbar'}>
         <div className="container">
             <div className="left">
-                <img src='https://o.remove.bg/downloads/2a5d6106-cfb5-4a0f-ac8a-6591132321d0/WhatsApp_Image_2022-06-20_at_2.28.20_PM-removebg-preview.png'/>
+                <img src='https://github.com/jrauljperez02/R-app/blob/main/src/logo_transparent.png?raw=true'/>
                 <span>Homepage</span>
                 <span>Series</span>
                 <span>Movies</span>
